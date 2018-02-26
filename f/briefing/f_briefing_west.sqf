@@ -54,21 +54,13 @@ _adm = player createDiaryRecord ["diary", ["Administration","
 
 _exe = player createDiaryRecord ["diary", ["Execution","
 <br/>
-COMMANDER'S INTENT
+* Use Recon units to rapidly traverse the island and identify incoming threats.
 <br/>
-*** Insert very short summary of plan here. ***
-<br/><br/>
-MOVEMENT PLAN
+* Use troop transports to respond quickly to threats and defeat them before they reach the shore.
 <br/>
-*** Insert movement instructions here. ***
-<br/><br/>
-FIRE SUPPORT PLAN
+* If any enemy units reach the shore, eliminate them without compromising the ongoing shore defense effort.
 <br/>
-*** Insert fire support instructions here. ***
-<br/><br/>
-SPECIAL TASKS
-<br/>
-*** Insert instructions for specific units here. ***
+* Await extraction by the Chernarus Air Force.
 "]];
 
 // ====================================================================================
@@ -78,7 +70,7 @@ SPECIAL TASKS
 
 _mis = player createDiaryRecord ["diary", ["Mission","
 <br/>
-*** Insert the mission here. ***
+Defend the island until extraction!
 "]];
 
 // ====================================================================================
@@ -88,15 +80,13 @@ _mis = player createDiaryRecord ["diary", ["Mission","
 
 _sit = player createDiaryRecord ["diary", ["Situation","
 <br/>
-*** Insert general information about the situation here.***
-<br/><br/>
-ENEMY FORCES
+Utes is a small strategic island south of Chernarus, in the Green Sea. Until recently, Chernarus served as a buffer state between Russia and NATO but a series of annexations by Russia has forced a NATO decision to secure Utes due to its strategic importance.
 <br/>
-*** Insert information about enemy forces here.***
-<br/><br/>
-FRIENDLY FORCES
+NATO has issued an ultimatum to the Utes Defense Force to offer no resistance, but Chernarussian leadership cannot afford to lose more ground in the face of a growing nationalist sentiment.
 <br/>
-*** Insert information about friendly forces here.***
+The UDF is prepared to fight and die for this land but a total wipeout will be a massive symbolic loss for Chernarus, whose leadership appears helpless as their country is crushed between two powers.
+<br/>
+The UDF are therefore ordered to hold the island until extraction by air - if they can last long enough. State media is ready to present the battle as a victory to the people and call them to arms under this government's leadership - but NATO must pay dearly for this land.
 "]];
 
 // ====================================================================================

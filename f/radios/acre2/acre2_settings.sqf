@@ -18,7 +18,7 @@ f_radios_settings_acre2_disableFrequencySplit = FALSE;
 f_radios_settings_acre2_shortRange = nil;
 
 // Set the list of units that get a long range
-f_radios_settings_acre2_longRange = ["co", "dc", "vc"];
+f_radios_settings_acre2_longRange = ["co", "dc", "vc", "ftl", "crew-cmd"];
 
 // Unit types you want to give an extra long-range radio
 // E.G: ["co", "m"] would give the CO and all medics an extra long-range radios
@@ -57,11 +57,11 @@ f_radios_settings_acre2_language_indfor = ["greek"];
 // note that if using a 343 only the first 16 channels are available for the short-range array
 // also note these only work if f_radios_settings_acre2_disableFrequencySplit is set to false
 f_radios_settings_acre2_sr_groups_blufor = [
-    ["ASL",    ["ASL"]],
-    ["A1",    ["A1"]],
-    ["A2",  ["A2"]],
-    ["BSL",    ["BSL"]],
-    ["B1",     ["B1"]],
+    ["ANCHOVY",    ["ANCHOVY"]],
+    ["BASS",    ["BASS"]],
+    ["COMMAND",  ["COMMAND"]],
+    ["ORCA",    ["ORCA"]],
+    ["MAKO",     ["MAKO"]],
     ["B2",  ["B2"]],
     ["CSL",     ["CSL"]],
     ["C1",    ["C1"]],
@@ -89,8 +89,8 @@ f_radios_settings_acre2_sr_groups_opfor = f_radios_settings_acre2_sr_groups_bluf
 f_radios_settings_acre2_sr_groups_indfor = f_radios_settings_acre2_sr_groups_blufor;
 
 f_radios_settings_acre2_lr_groups_blufor = [
-    ["GRND COMMAND 1",    ["CO","ASL","BSL","CSL","ENG1","MMG1","HMG1","MAT1","HAT1","MTR1","MSAM1","HSAM1","ST1","DT1"]],
-    ["GRND COMMAND 2",    ["IFV1","IFV2","IFV3","IFV4","IFV5","IFV6","IFV7","IFV8","TNK1"]],
+    ["INFANTRY",    ["ANCHOVY","BASS","COMMAND"]],
+    ["VEHICLE",    ["MAKO","ORCA"]],
     ["AIR",  ["TH1","TH2","TH3","T4","TH5","TH6","TH7","TH8","AH1"]],
     ["FAC",	 []],
     ["ALPHA SQUAD",     ["ASL","A1","A2","A3"]],
